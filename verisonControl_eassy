@@ -1,0 +1,12 @@
+# CSP451-CheckPoint1-amish
+
+## Version Control
+Version control is like a time machine for your projects. It keeps track of every change you make to your files, so you can always look back, undo mistakes, or see how your work has evolved over time. It also makes teamwork much smoother—everyone can work on the same project without stepping on each other’s toes, since the system keeps a record of who changed what and when. With version control, you can try out new ideas in separate branches, merge them when ready, and feel confident knowing your project’s history is safe and organized.
+
+## git
+Git is a powerful version control system widely used in software development to manage and track changes in source code. It was created by Linus Torvalds in 2005 to help coordinate work on the Linux kernel. Since then, it has become the industry standard for version control due to its speed, efficiency, and distributed nature. Unlike older systems, Git does not rely on a central server to store the entire history of a project. Instead, every developer has a full copy of the repository, including its history, on their local machine. This makes Git reliable and allows developers to work offline, commit changes locally, and synchronize with others later.
+
+At its core, Git allows developers to record “snapshots” of a project through commits. These commits form a history that can be reviewed, rolled back, or branched from. Branching and merging are among Git’s strongest features, enabling teams to experiment with new ideas without affecting the main codebase. Once changes are stable, branches can be merged back into the main branch. Git also supports collaborative workflows where multiple contributors can work on the same project simultaneously. Conflicts, when they occur, are resolved with Git’s built-in tools, ensuring code integrity.
+
+## git vs github
+While Git is the underlying version control system, it is often used in combination with hosting platforms. GitHub is the most popular of these platforms. Git is the tool that manages your code and history locally, while GitHub is a cloud-based service that provides a remote home for Git repositories. GitHub adds features such as issue tracking, pull requests, code review, and collaboration tools, which extend beyond Git’s core functionality. In short, Git is the technology for version control, whereas GitHub is a platform that makes Git projects easier to share, collaborate on, and manage online.
