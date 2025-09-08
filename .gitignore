@@ -1,0 +1,15 @@
+# Ignore all .txt files
+*.txt
+
+# Ignore a specific folder named "logs"
+logs/
+
+# Ignore folder temp 
+temp/
+
+#Ignore folder amish_copy
+amish_copy/
+
+#Ignore .env
+.env
+
