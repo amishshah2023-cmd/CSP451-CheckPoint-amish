@@ -1,3 +1,10 @@
+/* ===========================
+   Nepal Info Page Script
+   - Handles fun fact button
+   - Navigation toggle (if added)
+   - Future interactive features
+=========================== */
+
 document.addEventListener("DOMContentLoaded", () => {
   const facts = [
     "Nepal has the only non-rectangular national flag in the world.",
