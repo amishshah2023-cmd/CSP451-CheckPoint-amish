@@ -66,3 +66,11 @@ footer {
 #factBtn:hover {
   background: #1d3557;
 }
+.info-box {
+  background: #dff6ff;
+  border-left: 5px solid #1d3557;
+  padding: 10px 15px;
+  border-radius: 6px;
+  font-style: italic;
+  margin-top: 10px;
+}
