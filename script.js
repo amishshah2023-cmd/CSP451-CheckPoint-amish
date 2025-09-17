@@ -22,3 +22,21 @@ document.addEventListener("DOMContentLoaded", () => {
     factText.classList.remove("hidden");
   });
 });
+  const loginForm = document.getElementById("loginForm");
+  const loginMessage = document.getElementById("loginMessage");
+
+  if (loginForm) {
+    loginForm.addEventListener("submit", (e) => {
+      e.preventDefault();
+      const username = document.getElementById("username").value;
+      const password = document.getElementById("password").value;
+
+      if (username === "admin" && password === "1234") {
+        loginMessage.textContent = "✅ Login successful! Welcome, " + username;
+      } else {
+        loginMessage.textContent = "❌ Invalid username or password.";
+      }
+      loginMessage.classList.remove("hidden");
+      loginForm.reset();
+    });
+  }
